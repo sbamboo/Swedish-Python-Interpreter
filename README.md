@@ -1,10 +1,10 @@
-# Schlange, an interpreter for german python
-An alternative python interpreter that accepts german keywords
+# Orm, an interpreter for swedish python
+An alternative python interpreter that accepts swedish keywords
 ## Usage
-    python Schlange.py test.sch
+    python Orm.py test.orm
 or
 
-    ./Schlange test.sch
+    ./Orm test.orm
     
 ## Example
 ![grafik](https://github.com/actopozipc/German-Python-Interpreter/assets/48481041/93bd66c2-1b2d-477d-8943-dc95d7ecc92f)
@@ -12,106 +12,106 @@ or
 ## Supported keywords and functions
 ### Keywords
 
-| Englisch     | Deutsch      |
+| Englisch     | Swedish      |
 | ------------ | ------------ |
-| `and`        | `und`        |
-| `as`         | `als`        |
-| `assert`     | `prüfe`     |
-| `async`     | `asynch`     |
-| `await`     | `erwarte`     |
-| `break`      | `brechen`    |
-| `class`      | `Klasse`     |
-| `continue`   | `fortsetze` |
-| `def`        | `def`  |
-| `del`        | `lösche`     |
-| `elif`       | `andernfalls`  |
-| `else`       | `sonst`      |
-| `except`     | `Ausnahme`|
-| `False`      | `Falsch`     |
-| `finally`    | `schlussendlich`|
-| `for`        | `für`        |
-| `from`       | `von`        |
-| `global`     | `global`     |
-| `if`         | `wenn`       |
-| `import`     | `importiere` |
-| `in`         | `in`         |
-| `is`         | `ist`        |
-| `lambda`     | `lambda`     |
-| `None`       | `Nichts`      |
-| `nonlocal`   | `nichtlokal` |
-| `not`        | `nicht`      |
-| `or`         | `oder`       |
-| `pass`       | `passe`|
-| `raise`      | `erhöhe`     |
-| `return`     | `Rückkehr`   |
-| `True`       | `Wahr`       |
-| `try`        | `versuche`   |
-| `while`      | `solange`    |
-| `with`       | `mit`        |
-| `yield`      | `erzeuge`     |
+| `and`        | `och` |
+| `as`         | `som` |
+| `assert`     | `kontrollera` |
+| `async`      | `asynk` |
+| `await`      | `vänta` |
+| `break`      | `bryt` |
+| `class`      | `Klass` |
+| `continue`   | `fortsätt` |
+| `def`        | `def` |
+| `del`        | `radera` |
+| `elif`       | `ifall` |
+| `else`       | `annars` |
+| `except`     | `men` |
+| `False`      | `Falskt` |
+| `finally`    | `slutligen` |
+| `for`        | `för` |
+| `from`       | `från` |
+| `global`     | `global` |
+| `if`         | `om` |
+| `import`     | `importera` |
+| `in`         | `innuti` |
+| `is`         | `är` |
+| `lambda`     | `lambda` |
+| `None`       | `Inget` |
+| `nonlocal`   | `ickelokal` |
+| `not`        | `inte` |
+| `or`         | `eller` |
+| `pass`       | `passera` |
+| `raise`      | `res` |
+| `return`     | `returera` |
+| `True`       | `Sant` |
+| `try`        | `försök` |
+| `while`      | `sålänge` |
+| `with`       | `med` |
+| `yield`      | `ge` |
 
 ### Exceptions
-| Englisch | Deutsch |
+| Englisch | Swedish |
 | --- | --- |
-| `Exception` | `Ausnahme` |
-| `TypeError` | `Typfehler` |
-| `ValueError` | `Wertefehler` |
-| `NameError` | `Namensfehler` |
-| `IndexError` | `Indexfehler` |
-| `KeyError` | `Schlüsselfehler` |
-| `FileNotFoundError` | `DateiNichtGefundenFehler` |
-| `SyntaxError` | `Syntaxfehler` |
-| `IndentationError` | `Einrückungsfehler` |
-| `ImportError` | `Importfehler` |
-| `ModuleNotFoundError` | `ModulNichtGefundenFehler` |
-| `ZeroDivisionError` | `Nullteilungsfehler` |
-| `ArithmeticError` | `Rechenfehler` |
-| `OverflowError` | `Überlauffehler` |
-| `AssertionError` | `Behauptungsfehler` |
-| `AttributeError` | `Attributfehler` |
-| `RuntimeError` | `Laufzeitfehler` |
-| `KeyError` | `Schlüsselfehler` |
-| `StopIteration` | `IterationStoppen` |
-| `PermissionError` | `Berechtigungsfehler` |
-| `TypeError` | `Typfehler` |
+| `Exception` | `Undantag` |
+| `TypeError` | `TypFel` |
+| `ValueError` | `VärdeFel` |
+| `NameError` | `NamnFel` |
+| `IndexError` | `IndexFel` |
+| `KeyError` | `NyckelFel` |
+| `FileNotFoundError` | `FilEjFunnenFel` |
+| `SyntaxError` | `SyntaxFel` |
+| `IndentationError` | `FramskutningsFel` |
+| `ImportError` | `ImporteringsFel` |
+| `ModuleNotFoundError` | `ModulenEjFunnenFel` |
+| `ZeroDivisionError` | `NollDivitionsFel` |
+| `ArithmeticError` | `AritmetisktFel` |
+| `OverflowError` | `ÖverflödsFel` |
+| `AssertionError` | `KontrolleringsFel` |
+| `AttributeError` | `AttributFel` |
+| `RuntimeError` | `ExekveringsFel` |
+| `KeyboardInterrupt` | `TangentbordsAvbrott` |
+| `StopIteration` | `IterationsAvslut` |
+| `PermissionError` | `TillståndsFel` |
+
 ### Built-in Functions
-| Englisch      | Deutsch      |
+| Englisch      | Swedish      |
 |--------------|--------------|
-| all          | alle         |
-| any          | irgendein    |
-| breakpoint   | brechpunkt   |
-| callable     | aufrufbar    |
-| compile      | kompiliere   |
+| all          | alla         |
+| any          | vadsom    |
+| breakpoint   | brytpunkt   |
+| callable     | anropningsbar    |
+| compile      | kompilera   |
 | complex      | komplex      |
-| delattr      | löschattr    |
-| enumerate    | enumerate (missing)   |
-| getattr      | bekommeattr  |
-| globals      | globale      |
-| hasattr      | hatattr      |
-| help         | hilfe        |
-| input        | eingabe      |
-| isinstance   | istinstanz   |
-| issubclass   | istsubklasse |
-| len          | län          |
-| list         | liste        |
-| locals       | lokale       |
-| map          | karte        |
-| next         | nächstes     |
+| delattr      | raderaattr    |
+| enumerate    | uppräkning (missing)   |
+| getattr      | fåattr  |
+| globals      | globala      |
+| hasattr      | harattr      |
+| help         | hjälp        |
+| input        | inmatning      |
+| isinstance   | ärinstans   |
+| issubclass   | ärsubklass |
+| len          | längd          |
+| list         | lista        |
+| locals       | lokala       |
+| map          | karta        |
+| next         | nästa     |
 | object       | objekt       |
-| open         | öffne        |
-| property     | eigenschaft  |
-| range        | reichweite   |
-| reversed     | rückwärts    |
-| round        | runde        |
-| setattr      | setzattr     |
-| sorted       | sortiere     |
-| staticmethod | statischemethode |
-| slice        | slice (missing)        |
+| open         | öppna        |
+| property     | egenskap  |
+| range        | räckvidd   |
+| reversed     | bakvänt    |
+| round        | runda        |
+| setattr      | sättattr     |
+| sorted       | sorterad     |
+| staticmethod | statiskmetod |
+| slice        | dela (missing)        |
 | tuple        | tupel        |
 | type         | typ          |
-| print        | drucke       |
-| math         | mathe        |
-| sqrt         | wurzel       |
+| print        | printa       |
+| math         | matte        |
+| sqrt         | kvadratröttera       |
 
 
 
@@ -119,4 +119,4 @@ or
 * Intellisense support
 * More function names (numpy, matplotlib)
 * Adding missing translations (enumerate, slice)
-* More german keywords (see discussions)
+* More swedish keywords (see original project discussions for german version)

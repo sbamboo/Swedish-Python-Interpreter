@@ -1,0 +1,36 @@
+importera numpy som np
+från numpy importera kvadratröttera
+
+Klass Person:
+    def __init__(själv, namn, ålder):
+        själv.namn = namn
+        själv.ålder = ålder
+    
+    def hälsa(själv):
+        printa(f'Hej, jag heter {själv.namn} och är {själv.ålder} år gammal.')
+
+p = Person('Max', 25)
+p.hälsa()
+
+nummer = 10
+sålänge nummer > 0:
+    om nummer % 2 == 0:
+        printa(f'{nummer} är jämt.')
+    annars:
+        printa(f'{nummer} är udda.')
+    nummer -= 1
+
+lista = [1, 2, 3, 4, 5, 7, 8]
+för element i lista:
+    om element == 1:
+        fortsätt
+    ifall element == 7:
+        bryt
+    printa(f'Kvadratröttern av {element} är {np.kvadratröttera(element)}.')
+
+försök:
+    1 / 0
+men NollDivitionsFel som e:
+    printa(f'Division med noll: {e}.')
+slutligen:
+    printa('Programmet är klart')
